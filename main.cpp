@@ -1,35 +1,24 @@
-#include <iostream>
-// #include <string>
+#include "sciter-x.h"
+#include "sciter-x-window.hpp"
+#include "sciter-win-main.cpp"
 
-class B {
+class frame: public sciter::window
+{
 public:
-    void static fun() { std::cout << "fun" << std::endl; }
+    frame(): window(SW_TITLEBAR | SW_RESIZEABLE | SW_CONTROLS | SW_MAIN | SW_ENABLE_DEBUG) {}
 
-private:
-    int a;
-    std::string b;
 };
 
-namespace A {
-int fun() {
-    std::cout << 'A' << std::endl;
-    return 0;
-}
-}  // namespace A
 
-int main() {
-    int a;
-    std::string b;
-    char d;
+#include "resources.cpp"
 
-    std::cout << "hello world." << std::endl;
-    A::fun();
-    // A a = new A;
-    B::fun();
+int uimain(std::function<int()> run)
+{
+    sciter::archive::instance().open(aux::elements_of(resources));
+    sciter::om::hasset<frame> pwin = new frame();
 
-    for (int i = 0; i < 100; ++i) {
-        a += i;
-    }
-    std::cout << "a is: " << a << std::endl;
-    return 0;
+    pwin->load(WSTR("this://app/index.htm"));
+    pwin->expand();
+
+    return run();
 }

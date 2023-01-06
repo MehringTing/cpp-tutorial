@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <style>
+        button {
+            margin: auto 3px;
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            outline: none;
+            cursor: pointer;
+            box-shadow: none;
+        }
+        button:hover {
+            box-shadow: none;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body aria-label="Sciter Frame Body" style="margin: 0">
+    <toolbar role="toolbar" style="height: 32px;line-height: 32px; vertical-align: middle;padding: auto 10px;">
+        <button #open accesskey="^O" title="load html" aria-label="Load Document" />
+        <button #open-in-view title="load html in view" aria-label="Load Document in View" />
+        <button #reload accesskey="!F5" title="reload html" disabled aria-label="Reload Document" />
+        <button #help title="Help browser" aria-label="Help" />
+
+        <button #inspector title="DOM inspector" aria-label="DOM inspector" />
+        <button|checkbox #live-reload title="Live reloading of modified HTML/CSS files every 3s" aria-label="Enable Live reloading"/>
+
+        <button|checkbox #enable-blurbehind checked title="Switch BlurBehind on/off" aria-label="Switch BlurBehind on/off"/>
+        <button|checkbox #system-ambience title="System ambience mode" aria-label="Set System Ambience Mode"/>
+        <button|checkbox #ambience title="Ambience mode" aria-label="Set Ambience Mode"/>
+      </toolbar>
+      <div #btn style="width: 100px; height: 100px; background-color: bisque; cursor: pointer;"></div>
+      <script>
+        function btnAction() {
+            document.querySelector('#btn').style.backgroundColor = 'red'
+        }
+        document.querySelector('#btn').addEventListener('click', btnAction)
+      </script>
+</body>
+</html>

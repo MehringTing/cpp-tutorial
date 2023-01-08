@@ -9,7 +9,8 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe build active file",
-			"command": "D:\\software\\mingw64\\bin\\g++.exe",
+			// "command": "D:\\software\\mingw64\\bin\\g++.exe",
+			"command": "g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g", // gdb调试选项
@@ -17,9 +18,16 @@
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe",
 				"-I",
-				"E:\\demo\\sciter-js-sdk-main\\include\\",
+				"D:\\code\\lib\\sciter-js-sdk-main\\include\\",
 				"-L",
-				"sciter.dll"
+				"sciter.dll",
+				// "-l",
+				// "winmm",
+				// "-l",
+				// "ws2_32",
+				// "-l",
+				// "libole32",
+				// "-municode"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

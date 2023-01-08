@@ -13,7 +13,15 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="D:/code/demo/sciter/sciter-js-sdk-main/include" />
 				</Compiler>
+				<Linker>
+					<Add option="-static" />
+					<Add option="-municode" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="libole32" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/cpp-tutorial" prefix_auto="1" extension_auto="1" />
@@ -25,12 +33,38 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-static" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="D:/code/lib/sciter-js-sdk-main/include" />
 		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add option="-municode" />
+			<Add library="winmm" />
+			<Add library="ws2_32" />
+			<Add library="libole32" />
+		</Linker>
+		<ExtraCommands>
+			<Add before='D:\code\lib\sciter-js-sdk-main\bin\windows\packfolder.exe res resources.cpp -v &quot;resources&quot;' />
+		</ExtraCommands>
+		<Unit filename=".clang-format" />
+		<Unit filename=".gitattributes" />
+		<Unit filename=".gitignore" />
+		<Unit filename="README.md" />
+		<Unit filename="cpp-tutorial.cbp" />
+		<Unit filename="cpp-tutorial.depend" />
+		<Unit filename="cpp-tutorial.layout" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.exe" />
+		<Unit filename="pack-resources.bat" />
+		<Unit filename="resources.cpp" />
+		<Unit filename="sciter.dll" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="test.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

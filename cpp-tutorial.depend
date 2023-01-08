@@ -192,3 +192,375 @@
 
 1672985945 e:\cpp\cpp-tutorial\resources.cpp
 
+1673020972 source:d:\code\cpp\tutorial\main.cpp
+	"sciter-x-window.hpp"
+	"sciter-win-main.cpp"
+	"resources.cpp"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x.h
+	"sciter-x-types.h"
+	"sciter-x-def.h"
+	"sciter-x-dom.h"
+	"sciter-x-value.h"
+	"sciter-x-api.h"
+	"sciter-x-msg.h"
+	"sciter-om.h"
+	"sciter-x-dom.hpp"
+	"sciter-x-host-callback.h"
+	"sciter-x-debug.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-types.h
+	"sciter-x-primitives.h"
+	<gtk/gtk.h>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-primitives.h
+	<string>
+	<stdbool.h>
+	"TargetConditionals.h"
+	<specstrings.h>
+	<windows.h>
+	<oaidl.h>
+	<string.h>
+	<wctype.h>
+	<string.h>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-def.h
+	"sciter-x-types.h"
+	"sciter-x-request.h"
+	"value.h"
+	"aux-cvt.h"
+	<iostream>
+	<stdio.h>
+	<stdarg.h>
+	<wchar.h>
+	"sciter-x-value.h"
+	"sciter-x-dom.h"
+	"sciter-x-behavior.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-request.h
+	"sciter-x-types.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\value.h
+	"sciter-x-primitives.h"
+	"value.hpp"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\value.hpp
+	"value.h"
+	<string>
+	<functional>
+	<stdexcept>
+	<initializer_list>
+	<utility>
+	<type_traits>
+	"aux-slice.h"
+	"aux-cvt.h"
+	"sciter-x-primitives.h"
+	"nullptr.hpp"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\aux-slice.h
+	<assert.h>
+	"limits.h"
+	<vector>
+	"sciter-x-primitives.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\aux-cvt.h
+	<assert.h>
+	<wchar.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<algorithm>
+	"aux-platform.h"
+	"aux-slice.h"
+	<string>
+	<algorithm>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\aux-platform.h
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\nullptr.hpp
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-value.h
+	"value.h"
+	"value.hpp"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-dom.h
+	<assert.h>
+	<stdio.h>
+	"sciter-x-behavior.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-behavior.h
+	"sciter-x-types.h"
+	"sciter-x-dom.h"
+	"sciter-x-value.h"
+	"sciter-x-graphics.h"
+	"sciter-om.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-graphics.h
+	"sciter-x-types.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-om.h
+	"sciter-x-primitives.h"
+	"sciter-x-value.h"
+	<cstring>
+	<cassert>
+	<atomic>
+	"sciter-om-def.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-om-def.h
+	"sciter-om.h"
+	<exception>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-api.h
+	"sciter-x-types.h"
+	"sciter-x-def.h"
+	"sciter-x-dom.h"
+	"sciter-x-request.h"
+	"sciter-x-msg.h"
+	"value.h"
+	<stdlib.h>
+	<unistd.h>
+	<libproc.h>
+	<dlfcn.h>
+	<dlfcn.h>
+	<cstddef>
+	<libgen.h>
+	<dlfcn.h>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-msg.h
+	"sciter-x-types.h"
+	"sciter-x-def.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-dom.hpp
+	"sciter-x-dom.h"
+	<algorithm>
+	<vector>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-host-callback.h
+	"sciter-x-api.h"
+	"sciter-x-debug.h"
+	<assert.h>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-debug.h
+	"sciter-x-api.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-window.hpp
+	"sciter-x-types.h"
+	"sciter-x.h"
+	"sciter-x-dom.h"
+	"sciter-x-api.h"
+	"sciter-x-dom.hpp"
+	"sciter-x-host-callback.h"
+	"aux-asset.h"
+	"aux-slice.h"
+	<algorithm>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\aux-asset.h
+	<windows.h>
+	<atomic>
+	"sciter-om.h"
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-win-main.cpp
+	"sciter-x-window.hpp"
+	"sciter-x-threads.h"
+	<windows.h>
+	<shellapi.h>
+	<vector>
+
+1637772186 d:\code\demo\sciter\sciter-js-sdk-main\include\sciter-x-threads.h
+	<specstrings.h>
+	<windows.h>
+	<stdio.h>
+	<assert.h>
+	<functional>
+	<mutex>
+	<condition_variable>
+	<thread>
+	<chrono>
+
+1673021386 d:\code\cpp\tutorial\resources.cpp
+
+1673008121 source:d:\code\cpp\tutorial\test.cpp
+	<iostream>
+
+1673020906 source:d:\code\cpp\tutorial\resources.cpp
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x.h
+	"sciter-x-types.h"
+	"sciter-x-def.h"
+	"sciter-x-dom.h"
+	"sciter-x-value.h"
+	"sciter-x-api.h"
+	"sciter-x-msg.h"
+	"sciter-om.h"
+	"sciter-x-dom.hpp"
+	"sciter-x-host-callback.h"
+	"sciter-x-debug.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-types.h
+	"sciter-x-primitives.h"
+	<gtk/gtk.h>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-primitives.h
+	<string>
+	<stdbool.h>
+	"TargetConditionals.h"
+	<specstrings.h>
+	<windows.h>
+	<oaidl.h>
+	<string.h>
+	<wctype.h>
+	<string.h>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-def.h
+	"sciter-x-types.h"
+	"sciter-x-request.h"
+	"value.h"
+	"aux-cvt.h"
+	<iostream>
+	<stdio.h>
+	<stdarg.h>
+	<wchar.h>
+	"sciter-x-value.h"
+	"sciter-x-dom.h"
+	"sciter-x-behavior.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-request.h
+	"sciter-x-types.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\value.h
+	"sciter-x-primitives.h"
+	"value.hpp"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\value.hpp
+	"value.h"
+	<string>
+	<functional>
+	<stdexcept>
+	<initializer_list>
+	<utility>
+	<type_traits>
+	"aux-slice.h"
+	"aux-cvt.h"
+	"sciter-x-primitives.h"
+	"nullptr.hpp"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\aux-slice.h
+	<assert.h>
+	"limits.h"
+	<vector>
+	"sciter-x-primitives.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\aux-cvt.h
+	<assert.h>
+	<wchar.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<algorithm>
+	"aux-platform.h"
+	"aux-slice.h"
+	<string>
+	<algorithm>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\aux-platform.h
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\nullptr.hpp
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-value.h
+	"value.h"
+	"value.hpp"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-dom.h
+	<assert.h>
+	<stdio.h>
+	"sciter-x-behavior.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-behavior.h
+	"sciter-x-types.h"
+	"sciter-x-dom.h"
+	"sciter-x-value.h"
+	"sciter-x-graphics.h"
+	"sciter-om.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-graphics.h
+	"sciter-x-types.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-om.h
+	"sciter-x-primitives.h"
+	"sciter-x-value.h"
+	<cstring>
+	<cassert>
+	<atomic>
+	"sciter-om-def.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-om-def.h
+	"sciter-om.h"
+	<exception>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-api.h
+	"sciter-x-types.h"
+	"sciter-x-def.h"
+	"sciter-x-dom.h"
+	"sciter-x-request.h"
+	"sciter-x-msg.h"
+	"value.h"
+	<stdlib.h>
+	<unistd.h>
+	<libproc.h>
+	<dlfcn.h>
+	<dlfcn.h>
+	<cstddef>
+	<libgen.h>
+	<dlfcn.h>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-msg.h
+	"sciter-x-types.h"
+	"sciter-x-def.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-dom.hpp
+	"sciter-x-dom.h"
+	<algorithm>
+	<vector>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-host-callback.h
+	"sciter-x-api.h"
+	"sciter-x-debug.h"
+	<assert.h>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-debug.h
+	"sciter-x-api.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-window.hpp
+	"sciter-x-types.h"
+	"sciter-x.h"
+	"sciter-x-dom.h"
+	"sciter-x-api.h"
+	"sciter-x-dom.hpp"
+	"sciter-x-host-callback.h"
+	"aux-asset.h"
+	"aux-slice.h"
+	<algorithm>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\aux-asset.h
+	<windows.h>
+	<atomic>
+	"sciter-om.h"
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-win-main.cpp
+	"sciter-x-window.hpp"
+	"sciter-x-threads.h"
+	<windows.h>
+	<shellapi.h>
+	<vector>
+
+1637772186 d:\code\lib\sciter-js-sdk-main\include\sciter-x-threads.h
+	<specstrings.h>
+	<windows.h>
+	<stdio.h>
+	<assert.h>
+	<functional>
+	<mutex>
+	<condition_variable>
+	<thread>
+	<chrono>
+

@@ -1,4 +1,10 @@
 *.exe
+*.cbp
+*.depend
+*.layout
+
 obj
 bin
+
+resources.cpp
 sciter.dll

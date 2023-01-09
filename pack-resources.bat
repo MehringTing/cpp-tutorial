@@ -1,1 +1,1 @@
-E:\demo\sciter-js-sdk-main\bin\windows\packfolder.exe res resources.cpp -v "resources"
+D:\code\cpp\lib\sciter-js-sdk-main\bin\windows\packfolder.exe res resources.cpp -v "resources"

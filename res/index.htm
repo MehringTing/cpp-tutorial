@@ -2,8 +2,8 @@
 <html lang="en"
     window-title="Tutorial"
     window-frame="extended"
-    window-width="800dpi"
-    window-height="600dpi"
+    window-width="1022dpi"
+    window-height="670dpi"
     window-minimizable="true"
     window-maximizable="true">
 <head>
@@ -12,6 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         body {
             /* width: 100%;
             height: 100%; */
@@ -29,31 +33,167 @@
             box-shadow: none;
             background-color: blue;
         }
+        .title-bar {
+            padding: 0 20dip;
+            flow: horizontal;
+            height: 60dip;
+            vertical-align: middle;
+            background-color: #f5f5f5;
+        }
+        .title-bar .title {
+            width: 100dip;
+        }
+        .title-bar .content {
+            width: *;
+        }
+        .title-bar .action {
+            width: 100dip;
+        }
+        .win-action-group {
+            flow: horizontal;
+        }
+        .win-action-group div.action {
+            margin: 0 5dip;
+            width: 14dip;
+            cursor: pointer;
+        }
+        .container {
+            flow: horizontal;
+            height: *;
+        }
+        .container .side-menu {
+            width: 200dip;
+            height: *;
+            box-sizing: border-box;
+            border-right: 1px solid #e0e0e0;
+        }
+        .container .main.content {
+            width: *;
+            height: *;
+        }
+
+        .side-menu .menus {
+            padding-left: 26dip;
+            margin-top: 12dip;
+            margin-left: -11dip;
+            list-style: none;
+        }
+        .menu-item, .group-name {
+            margin-right: 2dip;
+            margin-bottom: 2dip;
+            padding: 0 10dip;
+            font: system;
+            line-height: 36dip;
+            border-radius: 3dip;
+        }
+        .menu-item {
+            font-size: 11.5pt;
+            color: #3e3e3e;
+            cursor: pointer;
+        }
+        .group-name {
+            color: #9f9f9f;
+            font-size: 10pt;
+        }
+        .menu-item.active {
+            background-color: #f6f6f7;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+        .menu-item:hover {
+            color: #000000;
+            background-color: #f6f6f7;
+        }
+        .menu-group .menus {
+            margin-top: -6dip;
+            margin-left: -11dip;
+        }
     </style>
 </head>
 <body aria-label="Sciter Frame Body" style="margin: 0">
-    <div role="window-caption">Tutorial
-        <div role="window-close">x</div>
+    <div class="title-bar" role="window-caption">
+        <div class="title">Tutorial</div>
+        <div class="main content">ss</div>
+        <div class="win-action-group">
+            <div class="action" role="window-close">_</div>
+            <div class="action" role="window-close">[]</div>
+            <div class="action" role="window-close">
+                <img src="./images/win-close.svg" style="width: 20dip">
+            </div>
+        </div>
     </div>
-    <toolbar role="toolbar" style="height: 32px;line-height: 32px; vertical-align: middle;padding: auto 10px;">
-        <button #open accesskey="^O" title="load html" aria-label="Load Document" />
-        <button #open-in-view title="load html in view" aria-label="Load Document in View" />
-        <button #reload accesskey="!F5" title="reload html" disabled aria-label="Reload Document" />
-        <button #help title="Help browser" aria-label="Help" />
+    <div class="container">
+        <div class="side-menu">
+            <ul class="menus">
+                <li class="menu-item active">发现音乐</li>
+                <li class="menu-item">播客</li>
+                <li class="menu-item">视频</li>
+                <li class="menu-item">关注</li>
+                <li class="menu-item">直播</li>
+                <li class="menu-item">私人FM</li>
+                <li class="menu-group">
+                    <div class="group-name">我的音乐</div>
+                    <ul class="menus">
+                        <li class="menu-item">我喜欢的音乐</li>
+                        <li class="menu-item">本地与下载</li>
+                        <li class="menu-item">最近播放</li>
+                    </ul>
+                </li>
+                <li class="menu-group">
+                    <div class="group-name">创建的歌单</div>
+                    <ul class="menus">
+                        <li class="menu-item">流行</li>
+                        <li class="menu-item">纯音乐</li>
+                        <li class="menu-item">古典</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <toolbar role="toolbar" style="height: 32px;line-height: 32px; vertical-align: middle;padding: auto 10px;">
+                <button #open accesskey="^O" title="load html" aria-label="Load Document" />
+                <button #open-in-view title="load html in view" aria-label="Load Document in View" />
+                <button #reload accesskey="!F5" title="reload html" disabled aria-label="Reload Document" />
+                <button #help title="Help browser" aria-label="Help" />
+        
+                <button #inspector title="DOM inspector" aria-label="DOM inspector" />
+                <button|checkbox #live-reload title="Live reloading of modified HTML/CSS files every 3s" aria-label="Enable Live reloading"/>
+        
+                <button|checkbox #enable-blurbehind checked title="Switch BlurBehind on/off" aria-label="Switch BlurBehind on/off"/>
+                <button|checkbox #system-ambience title="System ambience mode" aria-label="Set System Ambience Mode"/>
+                <button|checkbox #ambience title="Ambience mode" aria-label="Set Ambience Mode"/>
+              </toolbar>
+              <div #btn style="width: 100px; height: 100px; background-color: bisque; cursor: pointer;"></div>
+              <div id="app">
+            </div>
+        </div>
+    </div>
+    
+      <!-- <script type="module" src="./welcome.js"></script> -->
+      <script type="module">
+        import Welcome from './welcome.js'
+        import FindAudio from './views/find-audio.js'
 
-        <button #inspector title="DOM inspector" aria-label="DOM inspector" />
-        <button|checkbox #live-reload title="Live reloading of modified HTML/CSS files every 3s" aria-label="Enable Live reloading"/>
-
-        <button|checkbox #enable-blurbehind checked title="Switch BlurBehind on/off" aria-label="Switch BlurBehind on/off"/>
-        <button|checkbox #system-ambience title="System ambience mode" aria-label="Set System Ambience Mode"/>
-        <button|checkbox #ambience title="Ambience mode" aria-label="Set Ambience Mode"/>
-      </toolbar>
-      <div #btn style="width: 100px; height: 100px; background-color: bisque; cursor: pointer;"></div>
-      <script>
+        console.log(Welcome)
         function btnAction() {
             document.querySelector('#btn').style.backgroundColor = 'red'
         }
         document.querySelector('#btn').addEventListener('click', btnAction)
+
+        function Demo(props) {
+            return <div>Demo</div>
+        }
+
+        const routes = {
+            'find': <FindAudio />,
+        };
+
+        const elem = <div>
+            <Demo></Demo>
+            <h1>Hello world.</h1>
+            <Welcome name="lucky" user="{a:1, b:false, c: 'zss'}"></Welcome>
+        </div>;
+        document.$("#app").patch(elem)
       </script>
 </body>
 </html>

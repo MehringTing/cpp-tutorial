@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* width: 100%;
+    height: 100%; */
+}
+button {
+    margin: auto 3px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+button:hover {
+    box-shadow: none;
+    background-color: blue;
+}
+.title-bar {
+    padding: 0 20dip;
+    flow: horizontal;
+    height: 60dip;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+}
+.title-bar .title {
+    width: 100dip;
+}
+.title-bar .content {
+    width: *;
+}
+.title-bar .action {
+    width: 100dip;
+}
+.win-action-group {
+    flow: horizontal;
+}
+.win-action-group div.action {
+    margin: 0 5dip;
+    width: 14dip;
+    cursor: pointer;
+}
+.container {
+    flow: horizontal;
+    height: *;
+}
+.container .side-menu {
+    width: 200dip;
+    height: *;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+}
+.container .main.content {
+    width: *;
+    height: *;
+}
+
+.side-menu .menus {
+    padding-left: 26dip;
+    margin-top: 12dip;
+    margin-left: -11dip;
+    list-style: none;
+}
+.menu-item, .group-name {
+    margin-right: 2dip;
+    margin-bottom: 2dip;
+    padding: 0 10dip;
+    font: system;
+    line-height: 36dip;
+    border-radius: 3dip;
+}
+.menu-item {
+    font-size: 11.5pt;
+    color: #3e3e3e;
+    cursor: pointer;
+}
+.group-name {
+    color: #9f9f9f;
+    font-size: 10pt;
+}
+.menu-item.active {
+    background-color: #f6f6f7;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.menu-item:hover {
+    color: #000000;
+    background-color: #f6f6f7;
+}
+.menu-group .menus {
+    margin-top: -6dip;
+    margin-left: -11dip;
+}

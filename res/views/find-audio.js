@@ -1,3 +1,6 @@
+/**
+ * 发现音乐
+ */
 export default class FindAudio extends Element {
     constructor() {
         super();

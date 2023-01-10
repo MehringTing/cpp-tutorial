@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"
+    window-title="Tutorial"
+    window-frame="extended"
+    window-width="1022dpi"
+    window-height="670dpi"
+    window-minimizable="true"
+    window-maximizable="true">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module">
+        import App from 'app.js';
+        import Welcome from './welcome.js'
+        import FindAudio from './views/find-audio.js'
+
+        class Cd extends Element {
+            constructor() {
+                super();
+            }
+
+            render() {
+                return (<div class="title-bar" role="window-caption">
+        <div class="title">Tutorial</div>
+        <div class="main content">ss</div>
+        <div class="win-action-group">
+            <div class="action" role="window-close">_</div>
+            <div class="action" role="window-close">[]</div>
+            <div class="action" role="window-close">
+                <img src="./images/win-close.svg" style="width: 20dip">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="side-menu">
+            <ul class="menus">
+                <li class="menu-item active">发现音乐</li>
+                <li class="menu-item">播客</li>
+                <li class="menu-item">视频</li>
+                <li class="menu-item">关注</li>
+                <li class="menu-item">直播</li>
+                <li class="menu-item">私人FM</li>
+                <li class="menu-group">
+                    <div class="group-name">我的音乐</div>
+                    <ul class="menus">
+                        <li class="menu-item">我喜欢的音乐</li>
+                        <li class="menu-item">本地与下载</li>
+                        <li class="menu-item">最近播放</li>
+                    </ul>
+                </li>
+                <li class="menu-group">
+                    <div class="group-name">创建的歌单</div>
+                    <ul class="menus">
+                        <li class="menu-item">流行</li>
+                        <li class="menu-item">纯音乐</li>
+                        <li class="menu-item">古典</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content">abc</div>
+    </div>);
+            }
+        }
+        document.$("#app").patch(<App></App>);
+    </script>
+</head>
+<body id="app">
+</body>
+</html>

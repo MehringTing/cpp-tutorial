@@ -39,7 +39,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="D:/code/lib/sciter-js-sdk-main/include" />
+			<Add directory="D:/code/cpp/lib/sciter-js-sdk-main/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-static" />
@@ -49,7 +49,7 @@
 			<Add library="libole32" />
 		</Linker>
 		<ExtraCommands>
-			<Add before='D:\code\lib\sciter-js-sdk-main\bin\windows\packfolder.exe res resources.cpp -v &quot;resources&quot;' />
+			<Add before='D:\code\cpp\lib\sciter-js-sdk-main\bin\windows\packfolder.exe res resources.cpp -v &quot;resources&quot;' />
 		</ExtraCommands>
 		<Unit filename=".clang-format" />
 		<Unit filename=".gitattributes" />

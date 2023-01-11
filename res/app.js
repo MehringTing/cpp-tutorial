@@ -52,7 +52,7 @@ export default class App extends Element {
     render(h) {
         return <main>
             <TitleBar></TitleBar>
-            <div class="container">
+            <div class="container" style="height: calc(100% - 60dip);">
                 <SideMenu />
                 <div class="content" id="content">
                     {this.routeView}

@@ -7,6 +7,7 @@ export default class FindAudio extends Element {
     }
 
     render() {
-        return <h1>发现音乐</h1>
+        // return <h1>发现音乐</h1>
+        return <iframe src="./bo-ke.htm" style="width: *; height: *"></iframe>
     }
 }

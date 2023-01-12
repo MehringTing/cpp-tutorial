@@ -19,11 +19,10 @@ export default class Find extends Element {
                 <li class="tab">歌手</li>
                 <li class="tab">最新音乐</li>
             </ul>
-            <div style="border: 1px solid red;">轮播图</div>
+            <div style="border: 1px solid red; margin: 20dip;">轮播图</div>
             <div class="grouped-list recommend">
                 <div class="name">推荐歌单</div>
                 <div class="list">
-                    <Card />
                     <Card />
                     <Card />
                     <Card />

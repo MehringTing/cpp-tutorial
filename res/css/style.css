@@ -103,11 +103,11 @@ button:hover {
 }
 
 .grouped-list {
-    margin: auto 20dip;
+    margin: 20dip;
+    /* max-width: 1000dip; */
     /* width: 500dip; */
     /* height: *; */
     /* size: *; */
-    width: 100%;
     overflow: hidden;
     border: 1px solid red;
 }
@@ -119,8 +119,8 @@ button:hover {
 }
 
 .grouped-list .list {
-    margin-left: -10px;
-    margin-right: -10px
+    /* margin-left: -10px; */
+    /* margin-right: -10px */
 }
 
 .recommend > .list {

@@ -1,15 +1,15 @@
 import TitleBar from "./layouts/title-bar";
 import SideMenu from "./layouts/side-menu";
 import Welcome from "./welcome";
-import FindAudio from "./views/find-audio";
-import BoKe from "./views/bo-ke";
+import Find from "./views/find/find";
+import BoKe from "./views/boke/bo-ke";
 import Video from "./views/video";
 import Follow from "./views/follow";
 import Live from "./views/live";
 import FM from "./views/fm";
 
 const routes = {
-    '发现音乐': <FindAudio />,
+    '发现音乐': <Find />,
     '播客': <BoKe />,
     '视频': <Video />,
     '关注': <Follow />,
@@ -28,6 +28,9 @@ export default class App extends Element {
         // this.$('.side-menu').on('click', () => {
         //     console.log(arguments)
         // })
+        this.componentUpdate({
+            routeView: routes['发现音乐'],
+        });
 
         console.log('component did mount', routes)
     }
@@ -54,7 +57,7 @@ export default class App extends Element {
             <TitleBar></TitleBar>
             <div class="container" style="height: calc(100% - 60dip);">
                 <SideMenu />
-                <div class="content" id="content">
+                <div class="content" id="content" style="height: *; overflow: auto">
                     {this.routeView}
                 </div>
             </div>

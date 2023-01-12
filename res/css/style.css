@@ -95,3 +95,41 @@ button:hover {
     margin-top: -6dip;
     margin-left: -11dip;
 }
+
+#content {
+    size: *;
+    overflow-x: none;
+    overflow-y: scroll-indicator;
+}
+
+.grouped-list {
+    margin: auto 20dip;
+    /* width: 500dip; */
+    /* height: *; */
+    /* size: *; */
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+.grouped-list .name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333
+}
+
+.grouped-list .list {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.recommend > .list {
+    flow: grid( 1 2 3 4 5,
+                6 7 8 9 10 );
+    size: *;
+    border-spacing: 15dip;
+}
+
+.recommend .card {
+    width: 0.2*;
+}

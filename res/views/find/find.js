@@ -19,7 +19,7 @@ export default class Find extends Element {
                 <li class="tab">歌手</li>
                 <li class="tab">最新音乐</li>
             </ul>
-            <div style="border: 1px solid red; margin: 20dip;">轮播图</div>
+            <div style="border: 1px solid red; margin: 20dip;padding: 3px 9px">轮播图</div>
             <div class="grouped-list recommend">
                 <div class="name">推荐歌单</div>
                 <div class="list">
@@ -40,7 +40,7 @@ export default class Find extends Element {
                 <div class="name">热门播客</div>
                 <ul>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
                             <div>
@@ -54,7 +54,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
                             <div>
@@ -68,7 +68,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
                             <div>
@@ -82,7 +82,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
                             <div>
@@ -96,7 +96,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
                             <div>
@@ -110,7 +110,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
                             <div>
@@ -130,21 +130,21 @@ export default class Find extends Element {
                 <ul>
                     <li>
                         <div class="image">
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="play">播放</div>
                         </div>
                         <p>2022超好听的网络流行歌曲</p>
                     </li>
                     <li>
                         <div class="image">
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="play">播放</div>
                         </div>
                         <p>2022超好听的网络流行歌曲</p>
                     </li>
                     <li>
                         <div class="image">
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="play">播放</div>
                         </div>
                         <p>2022超好听的网络流行歌曲</p>
@@ -155,7 +155,7 @@ export default class Find extends Element {
                 <div class="name">最新音乐</div>
                 <ul>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -167,7 +167,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -179,7 +179,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -191,7 +191,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -203,7 +203,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -215,7 +215,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -227,7 +227,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -239,7 +239,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -251,7 +251,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -263,7 +263,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -275,7 +275,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -287,7 +287,7 @@ export default class Find extends Element {
                         </div>
                     </li>
                     <li>
-                        <img src="../images/1.jpeg" alt="" />
+                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                         <div>
                             <p class="title">银河少年</p>
                             <div class="footer">
@@ -305,7 +305,7 @@ export default class Find extends Element {
                 <ul>
                     <li>
                         <div>
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="mask">
                                 <p>音乐推荐</p>
                             </div>
@@ -313,7 +313,7 @@ export default class Find extends Element {
                     </li>
                     <li>
                         <div>
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="mask">
                                 <p>音乐推荐</p>
                             </div>
@@ -321,7 +321,7 @@ export default class Find extends Element {
                     </li>
                     <li>
                         <div>
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="mask">
                                 <p>音乐推荐</p>
                             </div>
@@ -329,7 +329,7 @@ export default class Find extends Element {
                     </li>
                     <li>
                         <div>
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="mask">
                                 <p>音乐推荐</p>
                             </div>
@@ -337,7 +337,7 @@ export default class Find extends Element {
                     </li>
                     <li>
                         <div>
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="mask">
                                 <p>音乐推荐</p>
                             </div>
@@ -345,7 +345,7 @@ export default class Find extends Element {
                     </li>
                     <li>
                         <div>
-                            <img src="../images/1.jpeg" alt="" />
+                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
                             <div class="mask">
                                 <p>音乐推荐</p>
                             </div>

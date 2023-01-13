@@ -19,7 +19,7 @@ const routes = {
 
 export default class App extends Element {
     routeView;
-    
+
     constructor() {
         super();
     }
@@ -57,7 +57,7 @@ export default class App extends Element {
             <TitleBar></TitleBar>
             <div class="container" style="height: calc(100% - 60dip);">
                 <SideMenu />
-                <div class="content" id="content" style="height: *; padding: 20dip;">
+                <div class="content" id="content" style="height: *; padding: 20dip; padding-bottom: 50dip;">
                     {this.routeView}
                 </div>
             </div>

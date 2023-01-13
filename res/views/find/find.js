@@ -1,4 +1,6 @@
 import Card from "../../components/card";
+import HorizontalCard from "../../components/horizontal-card";
+import PodcastCard from "../../components/podcast-card";
 
 
 /**
@@ -21,7 +23,7 @@ export default class Find extends Element {
             </ul>
             <div style="border: 1px solid red; margin: 20dip;padding: 3px 9px">轮播图</div>
             <div class="grouped-list recommend">
-                <div class="name">推荐歌单</div>
+                <div class="name" style="padding-bottom: 10dip;">推荐歌单</div>
                 <div class="list">
                     <Card />
                     <Card />
@@ -36,322 +38,52 @@ export default class Find extends Element {
                 </div>
             </div>
 
-            <div class="grouped-list rmbk">
-                <div class="name">热门播客</div>
-                <ul>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
-                            <div>
-                                <span class="tag">热点资讯</span>
-                            </div>
-                            <div>
-                                <span class="author">国际快报</span>
-                                <span class="play-count">271</span>
-                                <span class="duration">00:20</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
-                            <div>
-                                <span class="tag">热点资讯</span>
-                            </div>
-                            <div>
-                                <span class="author">国际快报</span>
-                                <span class="play-count">271</span>
-                                <span class="duration">00:20</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
-                            <div>
-                                <span class="tag">热点资讯</span>
-                            </div>
-                            <div>
-                                <span class="author">国际快报</span>
-                                <span class="play-count">271</span>
-                                <span class="duration">00:20</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
-                            <div>
-                                <span class="tag">热点资讯</span>
-                            </div>
-                            <div>
-                                <span class="author">国际快报</span>
-                                <span class="play-count">271</span>
-                                <span class="duration">00:20</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
-                            <div>
-                                <span class="tag">热点资讯</span>
-                            </div>
-                            <div>
-                                <span class="author">国际快报</span>
-                                <span class="play-count">271</span>
-                                <span class="duration">00:20</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">英国首相称政府愿意就护士薪酬问题进行对话</p>
-                            <div>
-                                <span class="tag">热点资讯</span>
-                            </div>
-                            <div>
-                                <span class="author">国际快报</span>
-                                <span class="play-count">271</span>
-                                <span class="duration">00:20</span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="grouped-list hot-boke">
+                <div class="name" style="padding-top: 40dip;">热门播客</div>
+                <div class="list">
+                    <HorizontalCard />
+                    <HorizontalCard />
+                    <HorizontalCard />
+                    <HorizontalCard />
+                    <HorizontalCard />
+                    <HorizontalCard />
+                </div>
             </div>
-            <div class="grouped-list djfs">
-                <div class="name">独家放送</div>
-                <ul>
-                    <li>
-                        <div class="image">
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="play">播放</div>
-                        </div>
-                        <p>2022超好听的网络流行歌曲</p>
-                    </li>
-                    <li>
-                        <div class="image">
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="play">播放</div>
-                        </div>
-                        <p>2022超好听的网络流行歌曲</p>
-                    </li>
-                    <li>
-                        <div class="image">
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="play">播放</div>
-                        </div>
-                        <p>2022超好听的网络流行歌曲</p>
-                    </li>
-                </ul>
+            <div class="grouped-list exclusive">
+                <div class="name" style="padding-top: 40dip;">独家放送</div>
+                <div class="list">
+                    <Card business="exclusive" />
+                    <Card business="exclusive" />
+                    <Card business="exclusive" />
+                </div>
             </div>
             <div class="grouped-list newest">
-                <div class="name">最新音乐</div>
-                <ul>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                        <div>
-                            <p class="title">银河少年</p>
-                            <div class="footer">
-                                <div class="tags">
-                                    <span class="tag">Hi-Res</span>
-                                </div>
-                                <span class="author">王啸坤 / 薛之谦</span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                <div class="name" style="padding-top: 40dip;">最新音乐</div>
+                <div class="list">
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                    <HorizontalCard business="newest" />
+                </div>
             </div>
-            <div class="grouped-list ztbk">
-                <div class="name">主题播客</div>
-                <ul>
-                    <li>
-                        <div>
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="mask">
-                                <p>音乐推荐</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="mask">
-                                <p>音乐推荐</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="mask">
-                                <p>音乐推荐</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="mask">
-                                <p>音乐推荐</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="mask">
-                                <p>音乐推荐</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <picture src="https://lqimg.dftoutiao.com/news/20230112/20230112075135_fd81a057e22d5f60dbbdec5d49e89c6f_1.jpeg" />
-                            <div class="mask">
-                                <p>音乐推荐</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="grouped-list podcasts">
+                <div class="name" style="padding-top: 40dip;">主题播客</div>
+                <div class="list">
+                    <PodcastCard />
+                    <PodcastCard />
+                    <PodcastCard />
+                    <PodcastCard />
+                    <PodcastCard />
+                    <PodcastCard />
+                </div>
             </div>
         </div>
     }

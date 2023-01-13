@@ -7,7 +7,7 @@
         cursor: pointer;
         width: 0.2*;
     }
-    
+
     .card-body {
         position: relative;
         /* size: *; */
@@ -15,19 +15,18 @@
         /* overflow: hidden; */
         /* cursor: pointer */
     }
-    
+
     .card .card-body:hover .daily {
         display: block
     }
-    
+
     .card .card-body:hover .play {
         display: block
     }
-    
-    .card .card-body .daily {
+
+    .daily {
         position: absolute;
         display: none;
-        padding: 5dip;
         width: *;
         line-height: 1.5em;
         background-color: rgba(0, 0, 0, .8);
@@ -35,7 +34,7 @@
         color: #fff;
         border-radius: 8dip 8dip 0 0;
     }
-    
+
     .card .card-body .play-count {
         position: absolute;
         top: 3px;
@@ -43,8 +42,8 @@
         font-size: 12px;
         color: #fff
     }
-    
-    picture{
+
+    picture {
         width: *;
         height: width(100%);
         image-rendering: optimize-speed;
@@ -52,7 +51,14 @@
         border-radius: 8dip;
         /* height: 100dip; */
     }
-    
+
+    /* picture.exclusive {
+        width: *;
+        height: 0.56*;
+        image-rendering: optimize-speed;
+        border-radius: 8dip;
+    } */
+
     .card .card-body .play {
         position: absolute;
         bottom: 8px;
@@ -60,10 +66,257 @@
         display: none;
         color: #fff
     }
-    
+
     .card p {
         color: #333;
-        line-height: 2.5;
+        line-height: 1.5em;
         cursor: pointer
+    }
+}
+
+@set exclusive-card {
+    .card {
+        /* background: red; */
+        min-width: 138dip;
+        /* height: 207dip; */
+        border-radius: 8dip;
+        cursor: pointer;
+        width: 0.2*;
+    }
+
+    .card-body {
+        position: relative;
+        /* size: *; */
+        border-radius: 8dip;
+        /* overflow: hidden; */
+        /* cursor: pointer */
+    }
+
+    .card .card-body:hover .daily {
+        display: block
+    }
+
+    .card .card-body:hover .play {
+        display: block
+    }
+
+    .daily {
+        position: absolute;
+        display: none;
+        width: *;
+        line-height: 1.5em;
+        background-color: rgba(0, 0, 0, .8);
+        font-size: 12px;
+        color: #fff;
+        border-radius: 8dip 8dip 0 0;
+    }
+
+    .card .card-body .play-count {
+        position: absolute;
+        top: 3px;
+        right: 8px;
+        font-size: 12px;
+        color: #fff
+    }
+
+    picture {
+        width: *;
+        height: width(56%);
+        image-rendering: optimize-speed;
+        /* width: 207dip; */
+        border-radius: 8dip;
+        /* height: 100dip; */
+    }
+
+    .card .card-body .play {
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+        display: none;
+        color: #fff
+    }
+
+    .card p {
+        color: #333;
+        line-height: 1.5em;
+        cursor: pointer
+    }
+}
+
+@set horizontal-card {
+    .horizontal-card {
+        flow: horizontal;
+        width: 0.5*;
+        min-width: 207dip;
+        border-radius: 5px;
+        border-spacing: 10dip;
+    }
+
+    .horizontal-card:hover {
+        background-color: #ebebeb;
+    }
+
+    .horizontal-card > div {
+        flow: vertial;
+        size: *;
+        padding: 2dip 2dip 2dip 0;
+        border-spacing: 5dip;
+    }
+
+    .horizontal-card picture {
+        width: 76dip;
+        height: width(100%);
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .horizontal-card p.title {
+        color: #2f2f2f;
+        cursor: default;
+        line-height: 1.2em;
+        height: 2*;
+    }
+
+    .horizontal-card .tags {
+        height: *;
+        /* line-height: 1; */
+    }
+
+    .horizontal-card .tags .tag {
+        display: inline-block;
+        padding: 1dip;
+        color: #8d8d8d;
+        border: 1dip solid #d9d9d9;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+
+    .horizontal-card .info {
+        flow: horizontal;
+        border-spacing: 15dip;
+    }
+
+    .horizontal-card .info .author {
+        padding-right: 20px;
+        color: #8d8d8d;
+        font-size: 12px;
+    }
+
+    .horizontal-card .info .play-count {
+        padding-right: 20px;
+        color: #b7b7b7;
+        font-size: 12px
+    }
+
+    .horizontal-card .info .duration {
+        color: #b7b7b7;
+        font-size: 12px
+    }
+}
+
+@set newest-card {
+    .horizontal-card {
+        flow: horizontal;
+        width: 0.333333333*;
+        /* min-width: 48dip; */
+        border-radius: 5px;
+        border-spacing: 10dip;
+    }
+
+    .horizontal-card:hover {
+        background-color: #ebebeb;
+    }
+
+    .horizontal-card > div {
+        flow: vertial;
+        size: *;
+        padding: 2dip 2dip 2dip 0;
+        border-spacing: 5dip;
+    }
+
+    .horizontal-card picture {
+        width: 48dip;
+        height: width(100%);
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .horizontal-card p.title {
+        color: #2f2f2f;
+        cursor: default;
+        line-height: 1em;
+        height: *;
+    }
+
+    .horizontal-card .tags {
+        height: *;
+        /* line-height: 1; */
+    }
+
+    .horizontal-card .tags .tag {
+        display: inline-block;
+        padding: 1dip;
+        color: #8d8d8d;
+        border: 1dip solid #d9d9d9;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+
+    .horizontal-card .info {
+        flow: horizontal;
+        border-spacing: 15dip;
+    }
+
+    .horizontal-card .info .author {
+        padding-right: 20px;
+        color: #8d8d8d;
+        font-size: 12px;
+    }
+
+    .horizontal-card .info .play-count {
+        padding-right: 20px;
+        color: #b7b7b7;
+        font-size: 12px
+    }
+
+    .horizontal-card .info .duration {
+        color: #b7b7b7;
+        font-size: 12px
+    }
+}
+
+@set podcast-card {
+    .podcast {
+        width: *;
+        height: width(100%);
+        overflow: hidden;
+    }
+
+    .podcast > div {
+        position: relative;
+        height: 167px;
+        cursor: pointer
+    }
+
+    .podcast > div picture {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px
+    }
+
+    .podcast > div .mask {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 30px;
+        border-radius: 0 0 5px 5px;
+        background-image: linear-gradient(0deg, rgba(186, 186, 186, 0.631372549), transparent)
+    }
+
+    .podcast > div p {
+        padding: 0 5px;
+        line-height: 30px;
+        font-weight: bold;
+        color: #fff
     }
 }

@@ -377,7 +377,7 @@
 	<thread>
 	<chrono>
 
-1673535039 d:\code\cpp\tutorial\resources.cpp
+1676987769 d:\code\cpp\tutorial\resources.cpp
 
 1673008121 source:d:\code\cpp\tutorial\test.cpp
 	<iostream>
@@ -569,7 +569,7 @@
 	"sciter-win-main.cpp"
 	"resources.cpp"
 
-1637896970 d:\code\cpp\lib\sciter-js-sdk-main\include\sciter-x-window.hpp
+1637772186 d:\code\cpp\lib\sciter-js-sdk-main\include\sciter-x-window.hpp
 	"sciter-x-types.h"
 	"sciter-x.h"
 	"sciter-x-dom.h"
